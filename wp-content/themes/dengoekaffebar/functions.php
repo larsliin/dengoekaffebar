@@ -1171,3 +1171,9 @@ endif;
 function bootstrap_canvas_wp_menu_fallback() { ?>
     <li class="menu-item current-menu-item"><a href="<?php echo admin_url('nav-menus.php'); ?>"><?php _e( 'Add Menu', 'bootstrapcanvaswp' ); ?></a></li>
 <?php }
+add_action( 'admin_menu', 'remove_admin_menus' );
+
+//Remove top level admin menus
+function remove_admin_menus() {
+    remove_menu_page( 'edit-comments.php' );
+}

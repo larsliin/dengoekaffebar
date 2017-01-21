@@ -23,5 +23,11 @@
         </div><!-- /.blog-main -->
 
       </div><!-- /.row -->
-      
+    </div>
+    <div class="map__container">
+      <?php echo do_shortcode("[huge_it_maps id='1']"); ?>
+    </div>
+
+    <div class="container">
+
 	<?php get_footer(); ?>
