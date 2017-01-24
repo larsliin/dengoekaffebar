@@ -1,7 +1,10 @@
 // main: style.less
+// variables
+@blue-darker: #062744;
 // main
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
 }
 
 // FONTS
@@ -29,9 +32,16 @@ h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+@media @sm {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 .content {
-    background-color: #fff;
-    margin-top: 10%;
+    background-color: @blue-darker;
+    margin-top: 30px;
 }
 
 div.custom-background {
@@ -51,16 +61,25 @@ div.custom-background {
     background-color: transparent;
     box-shadow: none;
     > .container {
-        background-color: #000;
+        background-color: @blue-darker;
     }
 }
 
 .nav-menu {
-    background-color: #000;
+    background-color: @blue-darker;
+}
+
+.menu-item:first-child > a {}
+
+.nav-menu > li > a {
+    color: #fff;
+    &:hover {
+        color: #1692FF;
+    }
 }
 
 // google map
-.map__container{
+.map__container {
     margin: 20px 0;
 }
 

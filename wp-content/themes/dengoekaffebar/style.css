@@ -259,6 +259,7 @@ a img.aligncenter {
 }
 body {
   font-family: 'Roboto Condensed', sans-serif;
+  color: #fff;
 }
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -278,9 +279,13 @@ h5 {
 h6 {
   font-family: 'Oswald', sans-serif;
 }
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .content {
-  background-color: #fff;
-  margin-top: 10%;
+  background-color: #062744;
+  margin-top: 30px;
 }
 div.custom-background {
   height: 100vh;
@@ -298,10 +303,16 @@ div.custom-background {
   box-shadow: none;
 }
 .main-navigation > .container {
-  background-color: #000;
+  background-color: #062744;
 }
 .nav-menu {
-  background-color: #000;
+  background-color: #062744;
+}
+.nav-menu > li > a {
+  color: #fff;
+}
+.nav-menu > li > a:hover {
+  color: #1692FF;
 }
 .map__container {
   margin: 20px 0;
