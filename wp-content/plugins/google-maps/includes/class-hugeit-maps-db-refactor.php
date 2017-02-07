@@ -94,7 +94,7 @@ class Hugeit_Maps_DB_Refactor {
 				->set_animation( $map->animation );
 
 
-			$new_map->save();
+			$new_map->save($map->id);
 
 		}
 	}

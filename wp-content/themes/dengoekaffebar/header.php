@@ -51,6 +51,23 @@
           <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
 	</li>
       </ul>
+      <ul id="site-navigation-social" class="nav-menu nav-menu-social">
+        <li class="menu-item">
+        <span>Følg os på</span>
+        </li>
+        <li class="menu-item">
+          <a href="#"><span class="social-icon-facebook"></span></a>
+        </li>
+        <li class="menu-item">
+          <a href="#"><span class="social-icon-twitter"></span></a>
+        </li>
+        <li class="menu-item">
+          <a href="#"><span class="social-icon-instagram"></span></a>
+        </li>
+        <li class="menu-item">
+          <a href="#"><span class="social-icon-google-plus"></span></a>
+        </li>
+      </ul>
       </div>
     </nav><!-- #site-navigation -->
     

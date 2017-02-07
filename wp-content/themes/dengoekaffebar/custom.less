@@ -1,6 +1,50 @@
 // main: style.less
 // variables
+@import "variables_mixins.less";
 @blue-darker: #062744;
+// FONTS
+@font-face {
+    font-family: 'social-icons';
+    src: url('fonts/social-icons.eot?xhzyig');
+    src: url('fonts/social-icons.eot?xhzyig#iefix') format('embedded-opentype'), url('fonts/social-icons.ttf?xhzyig') format('truetype'), url('fonts/social-icons.woff?xhzyig') format('woff'), url('fonts/social-icons.svg?xhzyig#social-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="social-icon-"], [class*=" social-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'social-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social-icon-mail:before {
+    content: "\ea84";
+}
+
+.social-icon-twitter:before {
+    content: "\ea96";
+}
+
+.social-icon-google-plus:before {
+    content: "\ea8b";
+}
+
+.social-icon-facebook:before {
+    content: "\ea90";
+}
+
+.social-icon-instagram:before {
+    content: "\ea92";
+}
+
 // main
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -67,6 +111,15 @@ div.custom-background {
 
 .nav-menu {
     background-color: @blue-darker;
+    float: left;
+}
+
+.nav-menu > li > span {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    color: #fff;
 }
 
 .menu-item:first-child > a {}
@@ -78,6 +131,11 @@ div.custom-background {
     }
 }
 
+// top menu social
+.nav-menu-social {
+    float: right;
+}
+
 // google map
 .map__container {
     margin: 20px 0;
@@ -85,6 +143,6 @@ div.custom-background {
 
 // footer
 .blog-footer {
-    background-color: transparent;
+    background-color: @blue-darker;
     border-top: none;
 }

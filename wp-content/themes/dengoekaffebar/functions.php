@@ -241,27 +241,6 @@ function bootstrapcanvaswp_widgets_init() {
 		'after_title'   => '</h4>',
 	) );
 	  
-	// Area 4, located in the footer. Empty by default.
-	register_sidebar( array(
-		'name' => __( 'Third Footer Widget Area', 'bootstrapcanvaswp' ),
-		'id'            => 'third-footer-widget-area',
-		'description' => __( 'An optional widget area for your site footer.', 'bootstrapcanvaswp' ), 
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
-	) );
-	
-	// Area 5, located in the footer. Empty by default.
-	register_sidebar( array(
-		'name' => __( 'Fourth Footer Widget Area', 'bootstrapcanvaswp' ),
-		'id'            => 'fourth-footer-widget-area',
-		'description' => __( 'An optional widget area for your site footer.', 'bootstrapcanvaswp' ), 
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h4 class="widget-title">',
-		'after_title'   => '</h4>',
-	) );
 }
 add_action( 'widgets_init', 'bootstrapcanvaswp_widgets_init' );
 

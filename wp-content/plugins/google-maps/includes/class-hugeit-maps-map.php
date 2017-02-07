@@ -14,7 +14,7 @@ class Hugeit_Maps_Map implements Hugeit_Maps_Map_Interface {
 	 * @var int
 	 */
 	private $id;
-
+	
 	/**
 	 * Map Name
 	 *
@@ -1394,7 +1394,7 @@ class Hugeit_Maps_Map implements Hugeit_Maps_Map_Interface {
 	/**
 	 * Save map data, does not save markers,polygons,polylines,circles and directions
 	 */
-	public function save() {
+	public function save($map_id=null) {
 		global $wpdb;
 
 		$map_data = array();
@@ -1431,9 +1431,13 @@ class Hugeit_Maps_Map implements Hugeit_Maps_Map_Interface {
 		$this->set_if_not_null( 'animation', $this->animation, $map_data );
 
 
-		$map_success = is_null( $this->id )
-			? $wpdb->insert( Hugeit_Maps()->get_table_name( 'maps' ), $map_data )
-			: $wpdb->update( Hugeit_Maps()->get_table_name( 'maps' ), $map_data, array( 'id' => $this->id ) );
+
+        $this->set_if_not_null( 'id', $map_id, $map_data );
+
+        $map_success = is_null( $this->id )
+            ? $wpdb->insert( Hugeit_Maps()->get_table_name( 'maps' ), $map_data )
+            : $wpdb->update( Hugeit_Maps()->get_table_name( 'maps' ), $map_data, array( 'id' => $this->id ) );
+
 
 
 		if ( $map_success !== false && ! isset( $this->id ) ) {

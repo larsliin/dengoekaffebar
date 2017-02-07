@@ -412,7 +412,7 @@ interface Hugeit_Maps_Map_Interface {
 	/**
 	 * Save map data
 	 */
-	public function save();
+	public function save($id=null);
 
 
 }

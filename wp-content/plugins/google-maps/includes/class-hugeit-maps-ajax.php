@@ -828,7 +828,7 @@ class Hugeit_Maps_Ajax {
 			preg_match_all( '/\(([^\)]*)\)/', $polygon->get_data(), $matches );
 			foreach ( $matches[1] as $latlng ) {
 				/* splits the comma separated strings */
-				preg_match_all( "/[^,]+[\d+][.?][\d+]*/", $latlng, $results );
+				preg_match_all( "/[^,]*[\d+][.?][\d+]*/", $latlng, $results );
 				foreach ( $results as $result ) {
 					$response['polygons'][ $i ]['latlng'][] = array(
 						'lat' => $result[0],
@@ -856,7 +856,7 @@ class Hugeit_Maps_Ajax {
 			preg_match_all( '/\(([^\)]*)\)/', $polyline->get_data(), $matches );
 			foreach ( $matches[1] as $latlng ) {
 				/* splits the comma separated strings */
-				preg_match_all( "/[^,]+[\d+][.?][\d+]*/", $latlng, $results );
+				preg_match_all( "/[^,]*[\d+][.?][\d+]*/", $latlng, $results );
 				foreach ( $results as $result ) {
 					$response['polylines'][ $i ]['latlng'][] = array(
 						'lat' => $result[0],

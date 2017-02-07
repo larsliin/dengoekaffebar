@@ -4,11 +4,11 @@ Donate link: http://huge-it.com/google-map/
 Tags: google map, google maps, easy map, map, maps, map plugin, map markers, marker, polygons, polylines, store locator, google maps plugin,
 Requires at least: 3.0.1
 Tested up to: 4.7.1
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Google Map plugin form Huge-IT. One more perfect Google Map tool that we've made for you. Improved Google Map, where we have our special contribution.
+Google Map plugin form Huge-IT-the best solution to add awesome Google Maps to your website.Responsive plugin with advanced options will do the job.
 
 == Description ==
 
@@ -245,6 +245,10 @@ In order to install pro version of the plugin, simply follow these steps:
 If you think, that you found a bug in our [WordPress Google Maps](http://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 == Changelog ==
+
+= 2.2.3 =
+* 1) Fixed the issue with Maps ID being renewed after update.
+* 2) Fixed the issue with polygons or polylines when one of the points set between 0 and 10 started bo bug around and disappear the map.
 
 = 2.2.2 =
 * 1) Added featured plugins list.

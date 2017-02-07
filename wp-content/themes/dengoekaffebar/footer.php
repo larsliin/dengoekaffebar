@@ -21,12 +21,8 @@
 	  $copyright_text = get_theme_mod( 'copyrighttext', '' ); ?>
 	  <?php if ( $copyright_text !== '' ) : ?>
       <p class="copyright"><?php echo $copyright_text; ?></p>
-      <?php else: ?>
-      <p class="copyright"><?php _e( 'Blog template built for', 'bootstrapcanvaswp' ); ?><a href="<?php esc_url( 'http://getbootstrap.com', 'bootstrapcanvaswp' ); ?>"> Bootstrap</a> by <a href="<?php esc_url( 'https://twitter.com/mdo', 'bootstrapcanvaswp' ); ?>">@mdo</a></p>
       <?php endif; ?>
-      <p>
-        <a href="#"><?php _e( 'Back to top', 'bootstrapcanvaswp' ); ?></a>
-      </p>
+      
     </div>
 
     <?php 
