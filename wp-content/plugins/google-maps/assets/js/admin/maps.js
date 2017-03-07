@@ -156,7 +156,6 @@ function hugeitMapsLoadMap(id, hue, saturation, lightness, gamma, zoom, type, bi
         console.log('Failed to load response from database');
     });
     function initializeMap(response) {
-        console.log(response);
         if (response.success) {
             window.infowindow = new google.maps.InfoWindow;
             var mapInfo = response.success,
@@ -506,42 +505,6 @@ function hugeitMapsLoadMap(id, hue, saturation, lightness, gamma, zoom, type, bi
                         parseFloat(dir_start_lng)),
                     travelMode: google.maps.TravelMode[dir_travel_mode]
                 };
-                (function(d){
-                    directionsService.route(request, function(response, status) {
-                        if (status == google.maps.DirectionsStatus.OK) {
-                            directions[d] = new google.maps.DirectionsRenderer({
-                                map: map_admin_view,
-                                draggable: false,
-                                preserveViewport : true,
-                                polylineOptions : {
-                                    clickable : false,
-                                    strokeColor: "#" + info_directions[d].line_color,
-                                    strokeOpacity: info_directions[d].line_opacity,
-                                    strokeWeight: info_directions[d].line_width
-                                }
-                            });
-                            directions[d].setDirections(response);
-
-                            if( info_directions[d].show_steps){
-                                if(directionMarkers[d]){
-                                    for (var o = 0; o < directionMarkers[d].length; o++) {
-                                        directionMarkers[d][o].setMap(null);
-                                    }
-                                }else{
-                                    directionMarkers[d] = [];
-                                }
-                                var newRoute = directions[d].directions.routes[0].legs[0];
-                                for (var w = 0; w < newRoute.steps.length; w++) {
-                                    var marker = directionMarkers[d][w] = directionMarkers[d][w] || new google.maps.Marker;
-                                    marker.setMap(map_admin_view);
-                                    marker.setPosition(newRoute.steps[w].start_location);
-                                    hugeitMapsAttachInstructionText(
-                                        stepDisplay, marker, newRoute.steps[w].instructions, map_admin_view);
-                                }
-                            }
-                        }
-                    });
-                }(d));
             }
 
 

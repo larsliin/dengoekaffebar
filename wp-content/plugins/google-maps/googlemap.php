@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Huge IT Google Map
-Plugin URI: http://huge-it.com/google-map
+Plugin URI: https://huge-it.com/google-map
 Description: This easy to use Google Map plugin gives you opportunity to show anything on the map with fantastic tools of Google Maps.
-Version: 2.2.3
+Version: 2.2.4
 Author: Huge-IT
-Author URI: http://huge-it.com
-License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
+Author URI: https://huge-it.com
+License: GNU/GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
 Domain Path: /languages
 Text Domain: hg_gmaps
 */
@@ -27,7 +27,7 @@ if( ! class_exists( 'Hugeit_Maps' ) ):
 		 * Version of plugin
 		 * @var string
 		 */
-		public $version = '2.2.3';
+		public $version = '2.2.4';
 
 		/**
 		 * Google Maps API Key

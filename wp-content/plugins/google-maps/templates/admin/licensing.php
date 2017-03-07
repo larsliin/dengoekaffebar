@@ -5,48 +5,48 @@
             full version of the plugin is available in 3 different packages of one-time payment.','hugeit_maps'); ?>
     </p>
     <br/><br/><br/>
-    <a  target="_blank" href="http://huge-it.com/google-map/" class="button-primary" target="_blank"><?php _e('Purchase a License', 'hugeit_maps' ); ?></a>
+    <a  target="_blank" href="https://goo.gl/4ZkFas" class="button-primary" target="_blank"><?php _e('Purchase a License', 'hugeit_maps' ); ?></a>
 </div>
 <div class="maps">
     <div class="maps-block">
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon marker"></span>
                 <span class="text"><?php _e('Custom Marker Upload', 'hugeit_maps'); ?></span>
             </a>
         </div>
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon direction"></span>
                 <span class="text"><?php _e('Advanced Directions', 'hugeit_maps'); ?></span>
             </a>
         </div>
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon support"></span>
                 <span class="text"><?php _e('Links and HTML support', 'hugeit_maps'); ?></span>
             </a>
         </div>
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon maps"></span>
                 <span class="text"><?php _e('Advanced Maps Styling', 'hugeit_maps'); ?></span>
             </a>
         </div>
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon shapes"></span>
                 <span class="text"><?php _e('Maps shapes customisation', 'hugeit_maps'); ?></span>
             </a>
         </div>
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon layers"></span>
                 <span class="text"><?php _e('Advanced layers', 'hugeit_maps'); ?></span>
             </a>
         </div>
         <div class="licens">
-            <a href="http://huge-it.com/google-map/" target="_blank">
+            <a href="https://goo.gl/4ZkFas" target="_blank">
                 <span class="icon export"></span>
                 <span class="text"><?php _e('CSV file export support', 'hugeit_maps'); ?></span>
             </a>

@@ -25,9 +25,9 @@ class Hugeit_Maps_Admin_Assets {
 
 			wp_enqueue_style( 'hugeit_maps_admin_styles', Hugeit_Maps()->plugin_url().'/assets/css/admin.style.css' );
 
-			wp_enqueue_style( 'simple-slider', Hugeit_Maps()->plugin_url().'/assets/css/simple-slider.css' );
+			wp_enqueue_style( 'hugeit-simple-slider', Hugeit_Maps()->plugin_url().'/assets/css/simple-slider.css' );
 
-			wp_enqueue_style( 'animate-css', Hugeit_Maps()->plugin_url().'/assets/css/animate.css' );
+			wp_enqueue_style( 'hugeit-animate-css', Hugeit_Maps()->plugin_url().'/assets/css/animate.css' );
 
 			wp_enqueue_style( 'roboto', 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic' );
 
@@ -38,7 +38,7 @@ class Hugeit_Maps_Admin_Assets {
         }
 
         if( in_array( $hook, array('post.php', 'post-new.php') ) ){
-            wp_enqueue_style( 'simple-slider', Hugeit_Maps()->plugin_url().'/assets/css/simple-slider.css' );
+            wp_enqueue_style( 'hugeit-simple-slider', Hugeit_Maps()->plugin_url().'/assets/css/simple-slider.css' );
         }
 
         if($hook === Hugeit_Maps()->admin->pages['licensing']){
@@ -66,11 +66,11 @@ class Hugeit_Maps_Admin_Assets {
             }
 
             if( isset($_GET['task']) && $_GET['task'] == 'edit_map' ){
-                wp_enqueue_script( "google-maps-api", 'https://maps.googleapis.com/maps/api/js?'.$key_param.'libraries=places' );
+                wp_enqueue_script( "hugeit-google-maps-api", 'https://maps.googleapis.com/maps/api/js?'.$key_param.'libraries=places' );
 
-                wp_enqueue_script( "jscolor", Hugeit_Maps()->plugin_url()."/assets/jscolor/jscolor$suffix.js", array( 'jquery' ), false, true );
+                wp_enqueue_script( "hugeit-jscolor", Hugeit_Maps()->plugin_url()."/assets/jscolor/jscolor$suffix.js", array( 'jquery' ), false, true );
 
-                wp_enqueue_script( "simple-slider", Hugeit_Maps()->plugin_url()."/assets/js/simple-slider.js", array( 'jquery' ), false, true );
+                wp_enqueue_script( "hugeit-simple-slider", Hugeit_Maps()->plugin_url()."/assets/js/simple-slider.js", array( 'jquery' ), false, true );
 
                 wp_enqueue_script( 'hugeit-maps-admin-accordion-sections', Hugeit_Maps()->plugin_url().'/assets/js/admin/accordion-sections.js', array( 'jquery' ), false, true );
 
@@ -110,7 +110,7 @@ class Hugeit_Maps_Admin_Assets {
 		}
 
         if( in_array( $hook, array('post.php', 'post-new.php') ) ){
-            wp_enqueue_script( "simple-slider", Hugeit_Maps()->plugin_url()."/assets/js/simple-slider.js", array( 'jquery' ), false, true );
+            wp_enqueue_script( "hugeit-simple-slider", Hugeit_Maps()->plugin_url()."/assets/js/simple-slider.js", array( 'jquery' ), false, true );
             wp_enqueue_script( "hugeit-maps-inline-popup", Hugeit_Maps()->plugin_url()."/assets/js/admin/inline-popup.js", array( 'jquery' ), false, true );
         }
 

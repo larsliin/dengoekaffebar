@@ -1,12 +1,12 @@
 === Google Map ===
 Contributors: Huge-IT
-Donate link: http://huge-it.com/google-map/
+Donate link: https://huge-it.com/google-map/
 Tags: google map, google maps, easy map, map, maps, map plugin, map markers, marker, polygons, polylines, store locator, google maps plugin,
 Requires at least: 3.0.1
-Tested up to: 4.7.1
-Stable tag: 2.2.3
+Tested up to: 4.7.2
+Stable tag: 2.2.4
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Google Map plugin form Huge-IT-the best solution to add awesome Google Maps to your website.Responsive plugin with advanced options will do the job.
 
@@ -14,11 +14,12 @@ Google Map plugin form Huge-IT-the best solution to add awesome Google Maps to y
 
 ### Wordpress Google Maps
 
-* [Wordpress Google Maps](http://huge-it.com/google-map/)
-* [Google Maps Demo](http://huge-it.com/wordpress-plugins-google-map-layers/)
-* [Google Maps FAQ](http://huge-it.com/wordpress-google-map-faq/)
-* [Google Maps User Manual](http://huge-it.com/wordpress-google-map-user-manual/)
-* [Google Maps Support](http://huge-it.com/contact-us/)
+* [Wordpress Google Maps](https://huge-it.com/google-map/)
+* [Google Maps Demo](https://huge-it.com/wordpress-plugins-google-map-layers/)
+* [Google Maps FAQ](https://huge-it.com/wordpress-google-map-faq/)
+* [Google Maps User Manual](https://huge-it.com/wordpress-google-map-user-manual/)
+* [Google Maps Support](https://huge-it.com/contact-us/)
+* [Google Maps Forum](https://huge-it.com/forums/forum/wordpress/wordpress-google-maps/)
 * [Google Maps Github Project](https://github.com/Huge-IT/google-maps)
 
 https://www.youtube.com/watch?v=-2z8tDZeaBs
@@ -115,19 +116,19 @@ Huge-IT Google Maps exports CSV file, which makes it easy to export data, create
 
 > #### Demos 
 >
->[Google Map Layers Demo](http://huge-it.com/wordpress-plugins-google-map-layers/#plugin_demo_wrapper)
+>[Google Map Layers Demo](https://huge-it.com/wordpress-plugins-google-map-layers/#plugin_demo_wrapper)
 >
->[Google Map Markers Demo](http://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper)
+>[Google Map Markers Demo](https://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper)
 >
->[Google Map Shapes Demo](http://huge-it.com/wordpress-google-map-demo-3-google-map-shapes/#plugin_demo_wrapper)
+>[Google Map Shapes Demo](https://huge-it.com/wordpress-google-map-demo-3-google-map-shapes/#plugin_demo_wrapper)
 
 > #### FAQ & User manual
 >
->[FAQ](http://huge-it.com/wordpress-google-map-faq/)
+>[FAQ](https://huge-it.com/wordpress-google-map-faq/)
 >
->[User Manual](http://huge-it.com/wordpress-google-map-user-manual/)
+>[User Manual](https://huge-it.com/wordpress-google-map-user-manual/)
 
-If you think, that you found a bug in our [WordPress Google Maps](http://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
+If you think, that you found a bug in our [WordPress Google Maps](https://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 == Installation ==
 
@@ -136,7 +137,7 @@ If you think, that you found a bug in our [WordPress Google Maps](http://huge-it
 1. First download the ZIP file from Wordpress website
 2. Log in to your website administrator panel
 3. Go to the 'Add New' in the plugins dashboard, click “Upload Plugin”
-4. Upload [WordPress Google Maps](http://wordpress.org/plugins/google-maps) ZIP file by choosing it from your computer
+4. Upload [WordPress Google Maps](https://wordpress.org/plugins/google-maps) ZIP file by choosing it from your computer
 5. Click **Install** Now button
 6. Then click **Activate Plugin** button
 7. You can see the plugin installed on Wordpress left menu
@@ -159,23 +160,23 @@ If you think, that you found a bug in our [WordPress Google Maps](http://huge-it
 
 Now you can set your Image Gallery options, images and use our Google Maps.
 
-If you think, that you found a bug in our [WordPress Google Maps](http://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
+If you think, that you found a bug in our [WordPress Google Maps](https://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 == Screenshots ==
 
-1.  [WordPress Google Maps](http://huge-it.com/wordpress-plugins-google-map-layers/#plugin_demo_wrapper) - Google Maps Layer
-12.  [WordPress Google Maps](http://huge-it.com/wordpress-plugins-google-map-layers/#plugin_demo_wrapper) - Google Maps Layer
-13.  [WordPress Google Maps](http://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Marker
-14.  [WordPress Google Maps](http://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Markers
-15.  [WordPress Google Maps](http://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Markers
-16.  [WordPress Google Maps](http://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Markers
-17.  [WordPress Google Maps](http://huge-it.com/wordpress-google-map-demo-3-google-map-shapes/#plugin_demo_wrapper) - Google Maps Shapes
-21.  [WordPress Google Maps](http://huge-it.com/google-map/) - Google Maps admin page
-22.  [WordPress Google Maps](http://huge-it.com/google-map/) - Google Maps admin page
-23.  [WordPress Google Maps](http://huge-it.com/google-map/) - Google Maps admin page
-24.  [WordPress Google Maps](http://huge-it.com/google-map/) - Google Maps admin page
-25.  [WordPress Google Maps](http://huge-it.com/google-map/) - Google Maps admin page
-26.  [WordPress Google Maps](http://huge-it.com/google-map/) - Google Maps admin page
+1.  [WordPress Google Maps](https://huge-it.com/wordpress-plugins-google-map-layers/#plugin_demo_wrapper) - Google Maps Layer
+12.  [WordPress Google Maps](https://huge-it.com/wordpress-plugins-google-map-layers/#plugin_demo_wrapper) - Google Maps Layer
+13.  [WordPress Google Maps](https://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Marker
+14.  [WordPress Google Maps](https://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Markers
+15.  [WordPress Google Maps](https://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Markers
+16.  [WordPress Google Maps](https://huge-it.com/wordpress-google-map-demo-2-google-map-markers/#plugin_demo_wrapper) - Google Maps Markers
+17.  [WordPress Google Maps](https://huge-it.com/wordpress-google-map-demo-3-google-map-shapes/#plugin_demo_wrapper) - Google Maps Shapes
+21.  [WordPress Google Maps](https://huge-it.com/google-map/) - Google Maps admin page
+22.  [WordPress Google Maps](https://huge-it.com/google-map/) - Google Maps admin page
+23.  [WordPress Google Maps](https://huge-it.com/google-map/) - Google Maps admin page
+24.  [WordPress Google Maps](https://huge-it.com/google-map/) - Google Maps admin page
+25.  [WordPress Google Maps](https://huge-it.com/google-map/) - Google Maps admin page
+26.  [WordPress Google Maps](https://huge-it.com/google-map/) - Google Maps admin page
 
 == Frequently Asked Questions ==
 
@@ -209,7 +210,7 @@ In order to install pro version of the plugin, simply follow these steps:
 
 = Will I lose all my changes that I made in free version, if I update to pro version of Google Map? =
 
-* If you think, that you found a bug in our [WordPress Google Map](http://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
+* If you think, that you found a bug in our [WordPress Google Map](https://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 
 = I have already purchased Multi Site version, how do I upgrade it to Developer version, without buying it again? =
@@ -242,9 +243,14 @@ In order to install pro version of the plugin, simply follow these steps:
 * Using the php shortcode that Google Maps provides, you may insert it in the desired file of template, let it be footer, header or the content file.
 
 
-If you think, that you found a bug in our [WordPress Google Maps](http://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
+If you think, that you found a bug in our [WordPress Google Maps](https://huge-it.com/google-map/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com)
 
 == Changelog ==
+
+= 2.2.4 =
+* 1) General Options-Marker Infowindow Opens on-doesn't save.
+* 2) Map Animation-No effects in FrontEnd view.
+* 3) Map Language-doesn't save.
 
 = 2.2.3 =
 * 1) Fixed the issue with Maps ID being renewed after update.

@@ -82,4 +82,4 @@
       </div>
     </div>
     
-    <div class="container content">
+    <div class="content">

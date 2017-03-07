@@ -1,0 +1,23 @@
+.post-section{
+    margin-top: 12px;
+}
+
+.post-section input[type=text]:read-only{
+    background-color: transparent;
+    border: none;
+    color:#000;
+    padding: 0;
+    box-shadow: none;
+    cursor: text;
+}
+.post-section.margin input[type=text]{
+    width: 60px;
+    text-align: right;
+}
+
+.post-section.fullscreen > div:first-child{
+    margin-bottom: 4px;
+}
+.inp-full-width{
+    width: 100%;
+}

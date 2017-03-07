@@ -293,7 +293,7 @@ a img.aligncenter {
 .social-icon-instagram:before {
   content: "\ea92";
 }
-body {
+body.blog {
   font-family: 'Roboto Condensed', sans-serif;
   color: #fff;
 }
@@ -321,8 +321,14 @@ h6 {
     padding-right: 50px;
   }
 }
-.content {
+.container {
   background-color: #062744;
+}
+.container__margin--none {
+  padding-left: 0;
+  padding-right: 0;
+}
+.content {
   margin-top: 30px;
 }
 div.custom-background {
@@ -342,6 +348,11 @@ div.custom-background {
 }
 .main-navigation > .container {
   background-color: #062744;
+  border-bottom: solid 1px #fff;
+}
+#primary-menu {
+  margin-left: -10px;
+  margin-right: -10px;
 }
 .nav-menu {
   background-color: #062744;
@@ -369,4 +380,28 @@ div.custom-background {
 .blog-footer {
   background-color: #062744;
   border-top: none;
+  color: #fff;
+}
+.blog-footer a {
+  color: #fff;
+}
+.blog-footer a:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+.section {
+  padding-top: 30px;
+}
+.section p {
+  text-align: center;
+}
+.section-title {
+  font-size: 32px;
+  text-align: center;
+}
+@media only screen and (min-width: 767px) {
+  .section-title {
+    font-size: 52px;
+    text-align: left;
+  }
 }

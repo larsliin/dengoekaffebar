@@ -14,20 +14,9 @@
 
 	get_header(); ?>
 
-      <div class="row">
-
-        <div class="col-sm-12 blog-main">
-
-          <?php get_template_part( 'loop', 'index' ); ?>
-
-        </div><!-- /.blog-main -->
-
-      </div><!-- /.row -->
+      <?php get_template_part( 'sections', 'index' ); ?>
+      
     </div>
-    <div class="map__container">
-      <?php echo do_shortcode("[huge_it_maps id='1']"); ?>
-    </div>
-
     <div class="container">
 
 	<?php get_footer(); ?>
