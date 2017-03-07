@@ -59,13 +59,7 @@
           <a href="#"><span class="social-icon-facebook"></span></a>
         </li>
         <li class="menu-item">
-          <a href="#"><span class="social-icon-twitter"></span></a>
-        </li>
-        <li class="menu-item">
           <a href="#"><span class="social-icon-instagram"></span></a>
-        </li>
-        <li class="menu-item">
-          <a href="#"><span class="social-icon-google-plus"></span></a>
         </li>
       </ul>
       </div>
