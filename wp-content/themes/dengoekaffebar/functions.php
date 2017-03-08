@@ -183,7 +183,7 @@ div.custom-background { <?php echo trim( $style ); ?> }
  */
 function bootstrapcanvaswp_scripts() {
 	wp_enqueue_style( 'blog-css', get_template_directory_uri() . '/css/blog.css' );
-	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/css/bootstrap.css', '3.3.0' );
+	//wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/css/bootstrap.css', '3.3.0' );
 	if ( is_rtl() ) {
 		wp_enqueue_style( 'blog-rtl-css', get_template_directory_uri() . '/css/blog-rtl.css' );
 		wp_enqueue_style( 'bootstrap-rtl-css', get_template_directory_uri() . '/css/bootstrap-rtl.css', '3.3.0' );

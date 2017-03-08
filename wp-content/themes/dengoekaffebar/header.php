@@ -15,7 +15,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Condensed" rel="stylesheet">
     <title><?php wp_title(); ?></title>
-    
+    <style>
+      @font-face {
+          font-family: 'social-icons';
+          src: url('http://dengoekaffebar.dk/wp-content/themes/dengoekaffebar/fonts/social-icons.eot?xhzyig');
+          src: url('http://dengoekaffebar.dk/wp-content/themes/dengoekaffebar/fonts/social-icons.eot?xhzyig#iefix') format('embedded-opentype'), url('http://dengoekaffebar.dk/wp-content/themes/dengoekaffebar/fonts/social-icons.ttf?xhzyig') format('truetype'), url('http://dengoekaffebar.dk/wp-content/themes/dengoekaffebar/fonts/social-icons.woff?xhzyig') format('woff'), url('http://dengoekaffebar.dk/wp-content/themes/dengoekaffebar/fonts/social-icons.svg?xhzyig#social-icons') format('svg');
+          font-weight: normal;
+          font-style: normal;
+      }
+    </style>
 	<?php
 	  /*
 	   * We add some JavaScript to pages with the comment form
@@ -56,10 +64,10 @@
         <span>Følg os på</span>
         </li>
         <li class="menu-item">
-          <a href="#"><span class="social-icon-facebook"></span></a>
+          <a href="https://www.facebook.com/dengoekaffebar" target="_blank"><span class="social-icon-facebook"></span></a>
         </li>
         <li class="menu-item">
-          <a href="#"><span class="social-icon-instagram"></span></a>
+          <a href="https://www.instagram.com/dengoekaffebar/" target="_blank"><span class="social-icon-instagram"></span></a>
         </li>
       </ul>
       </div>
