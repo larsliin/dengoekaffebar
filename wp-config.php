@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'dengoekaffebar_dk');
+define('DB_NAME', 'u1cwn8r');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'u1cwn8r');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '5vPdmMrQw');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ' `Ab};J@#!P[1xZfGgPUX4t?]h#qj)TxLM k9o4AdtuSU(w*kd5(r5d.F6%^j5d ');
-define('SECURE_AUTH_KEY',  'WKHBcgtGJEBcu<+#0j@A^/L4XiRH`*KlZL3{sZ 0d96*tIT;1a^#qI#F/+!eD8%&');
-define('LOGGED_IN_KEY',    'c`^PDXu<Zu`@M5CRM`}v+]1E5.75E?Q9L>f[ws?L*MA;`?vUoBX%}/dveeiD?Dl]');
-define('NONCE_KEY',        'n0yB`kbs{Rs>J s zd`Db]||`/7&<3IF;&8YA69(CxCNna[6Op4qWw9`}tfW45@q');
-define('AUTH_SALT',        ',B6#h@O]&Tp=J`/G6yR*o$+?fUCv|c4/{`I,+Ww6ErSkk{59^421-aAsb&;hrkK ');
-define('SECURE_AUTH_SALT', 'LEt1!JvhQ<7c3:/^U@3^dE{UtK`{VAquj)=vTq`F{GqtJ]BNA*#n@yWM4;nVO8, ');
-define('LOGGED_IN_SALT',   'nSI}_#z/>)(2aB!)oE%V4x|-@ddH%g.h`xj~N$Fr,O/n2y`/!nTMk_.D!|Xgn}]m');
-define('NONCE_SALT',       'b,Y={P8E)b_LwD$DuZDxhmz|5)&sdKRpq=q.WxfYl%VLCj-KpU*(IzpJ f<MA+qN');
+define('AUTH_KEY',         'lvuu55vec2acxdnwzad6syk8hiwkhsvbha9ltqy15hf7l5hhpdhrmzqlydslg1cz');
+define('SECURE_AUTH_KEY',  '6a99zzwappciw4ebohionxtfs2miizedqgv7fs9qw14tpzmdglvpjqps7ocncy7s');
+define('LOGGED_IN_KEY',    'uh8zavvit3jo1qebimtmzvnplzofut0wjmfnjcjn2jvgkgo5ajy6lllqvmgm3uqw');
+define('NONCE_KEY',        'pihxf6zcjfr13uq7uqid5qsycjn12bnegi4qjznkmrcagsocl2uuigkna3czuuad');
+define('AUTH_SALT',        '93oubinxg7mn8eblfocd6efjtjfbxrzxcjgutgyfg01sn9edpigg0iirlhhyioxe');
+define('SECURE_AUTH_SALT', 'thr3czaxn9yaa9cqglb0yhadqddg6f5uecbaufqtdgbtns5qleczbu4mfrgupyfq');
+define('LOGGED_IN_SALT',   'eskln6uo5vskyrnetdqn9fmekmtifasijzd04srx2bfo1tnisssnqip2zv9jccox');
+define('NONCE_SALT',       'jrvlserzxvo41rcjuumfhlihkxdllhtlk6yhsdpwbbosd5tpjpmlyxhy4c4mm51l');
 
 /**#@-*/
 

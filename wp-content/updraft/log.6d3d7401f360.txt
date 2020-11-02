@@ -1,0 +1,126 @@
+0000.001 (0) Opened log file at time: Thu, 27 Jul 2017 04:49:27 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.2M | 20M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.001 (0) Free space on disk containing Updraft's temporary directory: 298401.5 MB
+0000.002 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.002 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.003 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1500504489, seconds_ago=626478)
+0000.004 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2017-07-27 04:49:27
+0000.004 (0) Semaphore (fd, wp_options) reset to 1
+0000.005 (0) Set semaphore last lock (fd) time to 2017-07-27 04:49:27
+0000.005 (0) Semaphore lock (fd) complete
+0000.006 (0) Backup run: resumption=0, nonce=6d3d7401f360, begun at=1501130967 (0s ago), job type=backup
+0000.007 (0) Scheduling a resumption (1) after 300 seconds (1501131267) in case this run gets aborted
+0000.012 (0) Checking if we have a zip executable available
+0000.013 (0) Testing: /usr/bin/zip
+0000.019 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.019 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.020 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.020 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.020 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.024 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.024 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.053 (0) Working binary zip found: /usr/bin/zip
+0000.054 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.054 (0) Creation of backups of directories: beginning
+0000.055 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.100 (0) Total entities for the zip file: 225 directories, 1484 files (0 skipped as non-modified), 27.8 MB
+0000.102 (0) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.103 (0) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.103 (0) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.104 (0) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.105 (0) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.106 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1484 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+17815.412 (1) Opened log file at time: Thu, 27 Jul 2017 09:46:22 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+17815.412 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.2M | 20M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+17815.412 (1) Free space on disk containing Updraft's temporary directory: 297935.5 MB
+17815.413 (1) Backup run: resumption=1, nonce=6d3d7401f360, begun at=1501130967 (17815s ago), job type=backup
+17815.413 (1) Long time past since expected resumption time: approx expected=1501131267.2, now=1501148782.6, diff=17515.4
+17815.414 (1) [Warning] Dit website besøges kun sjældent og UpdraftPlus modtager ikke de forventede ressourcer. Læs venligst denne side: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+17815.414 (1) Scheduling a resumption (2) after 300 seconds (1501149082) in case this run gets aborted
+17815.422 (1) Checking if we have a zip executable available
+17815.423 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+17815.423 (1) Creation of backups of directories: had begun; will resume
+17815.424 (1) Beginning creation of dump of plugins (split every: 400 MB)
+17815.502 (1) Total entities for the zip file: 225 directories, 1484 files (0 skipped as non-modified), 27.8 MB
+17815.510 (1) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+17815.511 (1) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+17815.512 (1) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+17815.514 (1) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+17815.515 (1) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+17815.515 (1) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1484 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+27803.441 (2) Opened log file at time: Thu, 27 Jul 2017 12:32:50 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+27803.441 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.1M | 24M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+27803.441 (2) Free space on disk containing Updraft's temporary directory: 294326.9 MB
+27803.442 (2) Backup run: resumption=2, nonce=6d3d7401f360, begun at=1501130967 (27803s ago), job type=backup
+27803.442 (2) Long time past since expected resumption time: approx expected=1501149082.6, now=1501158770.6, diff=9688
+27803.443 (2) [Warning] Dit website besøges kun sjældent og UpdraftPlus modtager ikke de forventede ressourcer. Læs venligst denne side: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+27803.443 (2) Scheduling a resumption (3) after 300 seconds (1501159070) in case this run gets aborted
+27803.461 (2) Checking if we have a zip executable available
+27803.462 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+27803.462 (2) Creation of backups of directories: had begun; will resume
+27803.463 (2) Beginning creation of dump of plugins (split every: 400 MB)
+27803.507 (2) Total entities for the zip file: 225 directories, 1484 files (0 skipped as non-modified), 27.8 MB
+27803.512 (2) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+27803.514 (2) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+27803.515 (2) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+27803.517 (2) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+27803.519 (2) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+27803.519 (2) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1484 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+45559.371 (3) Opened log file at time: Thu, 27 Jul 2017 17:28:46 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+45559.371 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.2M | 20M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+45559.372 (3) Free space on disk containing Updraft's temporary directory: 291422.4 MB
+45559.372 (3) Backup run: resumption=3, nonce=6d3d7401f360, begun at=1501130967 (45559s ago), job type=backup
+45559.372 (3) Long time past since expected resumption time: approx expected=1501159070.6, now=1501176526.5, diff=17455.9
+45559.373 (3) [Warning] Dit website besøges kun sjældent og UpdraftPlus modtager ikke de forventede ressourcer. Læs venligst denne side: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+45559.373 (3) Scheduling a resumption (4) after 300 seconds (1501176826) in case this run gets aborted
+45559.378 (3) Checking if we have a zip executable available
+45559.379 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+45559.379 (3) Creation of backups of directories: had begun; will resume
+45559.380 (3) Beginning creation of dump of plugins (split every: 400 MB)
+45559.449 (3) Total entities for the zip file: 225 directories, 1484 files (0 skipped as non-modified), 27.8 MB
+45559.457 (3) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+45559.458 (3) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+45559.459 (3) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+45559.460 (3) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+45559.461 (3) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+45559.461 (3) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1484 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+55770.661 (4) Opened log file at time: Thu, 27 Jul 2017 20:18:57 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+55770.662 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.2M | 20M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+55770.662 (4) Free space on disk containing Updraft's temporary directory: 288603 MB
+55770.663 (4) Backup run: resumption=4, nonce=6d3d7401f360, begun at=1501130967 (55770s ago), job type=backup
+55770.663 (4) Long time past since expected resumption time: approx expected=1501176826.5, now=1501186737.8, diff=9911.3
+55770.663 (4) [Warning] Dit website besøges kun sjældent og UpdraftPlus modtager ikke de forventede ressourcer. Læs venligst denne side: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+55770.664 (4) Scheduling a resumption (5) after 300 seconds (1501187037) in case this run gets aborted
+55770.672 (4) Checking if we have a zip executable available
+55770.673 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+55770.673 (4) Creation of backups of directories: had begun; will resume
+55770.676 (4) Beginning creation of dump of plugins (split every: 400 MB)
+55770.790 (4) Total entities for the zip file: 225 directories, 1484 files (0 skipped as non-modified), 27.8 MB
+55770.799 (4) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+55770.800 (4) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+55770.801 (4) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+55770.802 (4) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+55770.803 (4) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+55770.803 (4) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1484 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+114078.759 (5) Opened log file at time: Fri, 28 Jul 2017 12:30:45 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+114078.760 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 23.1M | 24M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+114078.760 (5) Free space on disk containing Updraft's temporary directory: 297423.6 MB
+114078.761 (5) Backup run: resumption=5, nonce=6d3d7401f360, begun at=1501130967 (114078s ago), job type=backup
+114078.761 (5) Long time past since expected resumption time: approx expected=1501187037.8, now=1501245045.9, diff=58008.1
+114078.761 (5) [Warning] Dit website besøges kun sjældent og UpdraftPlus modtager ikke de forventede ressourcer. Læs venligst denne side: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+114078.762 (5) Scheduling a resumption (6) after 300 seconds (1501245345) in case this run gets aborted
+114078.768 (5) Checking if we have a zip executable available
+114078.769 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+114078.769 (5) Creation of backups of directories: had begun; will resume
+114078.770 (5) Beginning creation of dump of plugins (split every: 400 MB)
+114078.829 (5) Total entities for the zip file: 225 directories, 1484 files (0 skipped as non-modified), 27.8 MB
+114078.835 (5) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+114078.836 (5) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+114078.837 (5) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+114078.838 (5) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+114078.839 (5) Zip: backup_2017-07-27-0449_Den_goe_kaffebar_6d3d7401f360-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+114078.840 (5) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 1484 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+178902.711 (6) Opened log file at time: Sat, 29 Jul 2017 06:31:09 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+178902.711 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 4.7.5 PHP: 7.0.18-0ubuntu0.16.04.1 (apache2handler, Linux NIXWEB20 4.4.0-81-generic #104-Ubuntu SMP Wed Jun 14 08:17:06 UTC 2017 x86_64) MySQL: 5.7.19 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.2M | 20M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+178902.712 (6) Free space on disk containing Updraft's temporary directory: 298068.1 MB
+178902.712 (6) This backup task (6d3d7401f360) is either complete or began over 2 days ago: ending (1501309869.8743, 1501130967) (existing jobdata keys: resume_interval, job_type, jobstatus, backup_time, job_time_ms, service, split_every, maxzipbatch, job_file_entities, option_cache, uploaded_lastreset, one_shot, followsups_allowed, backup_database, backup_files, runs_started, current_resumption, binzip, filecreating_substatus, files_enumerated_at, warnings)

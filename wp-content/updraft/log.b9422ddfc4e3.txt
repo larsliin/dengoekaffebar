@@ -1,0 +1,241 @@
+0000.002 (0) Opened log file at time: Wed, 28 Oct 2020 21:49:16 +0000 on http://u1cwn8r.nixweb20.dandomain.dk
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.40 WP: 5.5.1 PHP: 7.0.33-0ubuntu0.16.04.16 (apache2handler, Linux nixweb20.dandomain.dk 4.4.0-189-generic #219-Ubuntu SMP Tue Aug 11 12:26:50 UTC 2020 x86_64) MySQL: 5.7.27 WPLANG: da_DK Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 24.4M | 26M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 246186 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.003 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.006 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1603317134, seconds_ago=604622)
+0000.007 (0) Set semaphore last lock (fd) time to 2020-10-28 21:49:16
+0000.008 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=b9422ddfc4e3, begun at=1603921756 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1603922056) in case this run gets aborted
+0000.019 (0) Checking if we have a zip executable available
+0000.020 (0) Testing: /usr/bin/zip
+0000.030 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.031 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.031 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.031 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.032 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.035 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.036 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.043 (0) Working binary zip found: /usr/bin/zip
+0000.044 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.044 (0) Creation of backups of directories: beginning
+0000.046 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.238 (0) Total entities for the zip file: 235 directories, 1584 files (0 skipped as non-modified), 29.6 MB
+0000.239 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.241 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.242 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.243 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.245 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.245 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.3 MB, 1584 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.821 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: size is now: 5.10 MB
+0000.823 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 600 files added (on-disk size: 5272 KB)
+0000.825 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 700 files added (on-disk size: 5272 KB)
+0000.826 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 800 files added (on-disk size: 5272 KB)
+0000.828 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 900 files added (on-disk size: 5272 KB)
+0000.829 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 1000 files added (on-disk size: 5272 KB)
+0000.829 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 1584 files batched, 501 (1002) added so far); re-opening (prior size: 5272 KB)
+0001.348 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 1100 files added (on-disk size: 6017.4 KB)
+0001.350 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 1200 files added (on-disk size: 6017.4 KB)
+0001.353 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 1300 files added (on-disk size: 6017.4 KB)
+0001.355 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 1400 files added (on-disk size: 6017.4 KB)
+0001.358 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: 1500 files added (on-disk size: 6017.4 KB)
+0001.358 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.5 MB, 1584 files batched, 501 (1503) added so far); re-opening (prior size: 6017.4 KB)
+0002.619 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip.tmp: size is now: 11.10 MB
+0002.809 (0) Created plugins zip (0) - 11858.7 KB in 2.8 s (4293 KB/s) (sha1: 352f7ccdaf369c49f8000fe1a141b8e4928f8a19, sha256: b4146d57711c3dec2c139b8aee5fb06b90046299642d8ccdb670096c8bb23ef8)
+0002.810 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.832 (0) Total entities for the zip file: 44 directories, 202 files (0 skipped as non-modified), 3.5 MB
+0002.833 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.835 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.065 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-themes.zip.tmp: size is now: 1.50 MB
+0003.080 (0) Created themes zip (0) - 1534.1 KB in 0.3 s (5691.2 KB/s) (sha1: e98dcdc731ab03c464857069b70924f4b10ede76, sha256: d98cbf7dd9670ca24799a86e6ff27c65f6859520601fe8d963b4c7a133b86d0f)
+0003.081 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.082 (0) Looking for candidates to back up in: /home/u1cwn8r/www/wp-content/uploads
+0003.082 (0) finding files: sb-instagram-feed-images: adding to list (1)
+0003.082 (0) finding files: 2019: adding to list (2)
+0003.083 (0) finding files: 2018: adding to list (3)
+0003.083 (0) finding files: 2020: adding to list (4)
+0003.083 (0) finding files: 2017: adding to list (5)
+0003.084 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.150 (0) Total entities for the zip file: 50 directories, 130 files (0 skipped as non-modified), 21.9 MB
+0003.151 (0) Zip: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.798 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-uploads.zip.tmp: size is now: 21.60 MB
+0003.981 (0) Created uploads zip (0) - 22142.3 KB in 0.9 s (24675.7 KB/s) (sha1: b4a9270e8a56df74395f7dfc7bed8d46d0da9f71, sha256: daa9216b71dea9522d711d3ac72b7631f4d5850f7a4d776ec15653e286566d88)
+0003.983 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.983 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.983 (0) Looking for candidates to back up in: /home/u1cwn8r/www/wp-content
+0003.984 (0) finding files: themes: skipping: this is the themes directory
+0003.984 (0) finding files: updraft: skipping: this is the updraft directory
+0003.984 (0) finding files: index.php: adding to list (1)
+0003.984 (0) finding files: uploads: skipping: this is the uploads directory
+0003.985 (0) finding files: languages: adding to list (2)
+0003.985 (0) finding files: upgrade: skipping: excluded by options
+0003.985 (0) finding files: plugins: skipping: this is the plugins directory
+0003.987 (0) Total entities for the zip file: 3 directories, 38 files (0 skipped as non-modified), 2.1 MB
+0004.111 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-others.zip.tmp: size is now: 0.60 MB
+0004.119 (0) Created others zip (0) - 617.5 KB in 0.1 s (4653.2 KB/s) (sha1: 4d87797b342e0d7a235390dde7e7a98728e4bcb8, sha256: 9012be73669d27145e2bdc9b9dab99413ae1d6dbe720b18d7fbd01c9b63d7b6f)
+0004.121 (0) Saving backup status to database (elements: 8)
+0004.122 (0) Beginning creation of database dump (WordPress DB)
+0004.122 (0) Testing: /usr/bin/mysqldump
+0011.219 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1237 bytes total)
+0011.223 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0011.268 (0) Table wp_options: Total expected rows (approximate): 210
+0011.274 (0) Table wp_options: Total rows added: 202 in 0.01 seconds
+0011.275 (0) Table wp_options: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_options.table.gz - 16.1 KB)
+0011.277 (0) Table wp_users: Total expected rows (approximate): 2
+0011.279 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0011.279 (0) Table wp_users: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_users.table.gz - 0.6 KB)
+0011.282 (0) Table wp_usermeta: Total expected rows (approximate): 42
+0011.286 (0) Table wp_usermeta: Total rows added: 44 in 0.00 seconds
+0011.287 (0) Table wp_usermeta: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_usermeta.table.gz - 1.7 KB)
+0011.289 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0011.296 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0011.296 (0) Table wp_commentmeta: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0011.300 (0) Table wp_comments: Total expected rows (approximate): 0
+0011.311 (0) Table wp_comments: Total rows added: 0 in 0.01 seconds
+0011.311 (0) Table wp_comments: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_comments.table.gz - 0.5 KB)
+0011.315 (0) Table wp_links: Total expected rows (approximate): 0
+0011.320 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0011.320 (0) Table wp_links: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_links.table.gz - 0.4 KB)
+0011.323 (0) Table wp_postmeta: Total expected rows (approximate): 103
+0011.324 (0) Table wp_postmeta: Total rows added: 142 in 0.00 seconds
+0011.325 (0) Table wp_postmeta: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_postmeta.table.gz - 3.3 KB)
+0011.327 (0) Table wp_posts: Total expected rows (approximate): 105
+0011.334 (0) Table wp_posts: Total rows added: 177 in 0.01 seconds
+0011.335 (0) Table wp_posts: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_posts.table.gz - 10.2 KB)
+0011.337 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0011.338 (0) Table wp_term_relationships: Total rows added: 5 in 0.00 seconds
+0011.338 (0) Table wp_term_relationships: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0011.340 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0011.340 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0011.341 (0) Table wp_term_taxonomy: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0011.342 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0011.348 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0011.349 (0) Table wp_termmeta: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_termmeta.table.gz - 0.4 KB)
+0011.351 (0) Table wp_terms: Total expected rows (approximate): 3
+0011.352 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0011.352 (0) Table wp_terms: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_terms.table.gz - 0.4 KB)
+0011.355 (0) Table wp_gmwd_circles: Total expected rows (approximate): 0
+0011.358 (0) Table wp_gmwd_circles: Total rows added: 0 in 0.00 seconds
+0011.358 (0) Table wp_gmwd_circles: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_circles.table.gz - 0.4 KB)
+0011.361 (0) Table wp_gmwd_maps: Total expected rows (approximate): 1
+0011.365 (0) Table wp_gmwd_maps: Total rows added: 1 in 0.00 seconds
+0011.366 (0) Table wp_gmwd_maps: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_maps.table.gz - 1 KB)
+0011.367 (0) Table wp_gmwd_mapstyles: Total expected rows (approximate): 0
+0011.371 (0) Table wp_gmwd_mapstyles: Total rows added: 0 in 0.00 seconds
+0011.372 (0) Table wp_gmwd_mapstyles: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_mapstyles.table.gz - 0.3 KB)
+0011.374 (0) Table wp_gmwd_markercategories: Total expected rows (approximate): 0
+0011.377 (0) Table wp_gmwd_markercategories: Total rows added: 0 in 0.00 seconds
+0011.378 (0) Table wp_gmwd_markercategories: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_markercategories.table.gz - 0.3 KB)
+0011.380 (0) Table wp_gmwd_markers: Total expected rows (approximate): 1
+0011.381 (0) Table wp_gmwd_markers: Total rows added: 1 in 0.00 seconds
+0011.381 (0) Table wp_gmwd_markers: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_markers.table.gz - 0.5 KB)
+0011.383 (0) Table wp_gmwd_options: Total expected rows (approximate): 10
+0011.384 (0) Table wp_gmwd_options: Total rows added: 10 in 0.00 seconds
+0011.384 (0) Table wp_gmwd_options: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_options.table.gz - 0.5 KB)
+0011.387 (0) Table wp_gmwd_polygons: Total expected rows (approximate): 0
+0011.388 (0) Table wp_gmwd_polygons: Total rows added: 0 in 0.00 seconds
+0011.388 (0) Table wp_gmwd_polygons: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_polygons.table.gz - 0.4 KB)
+0011.390 (0) Table wp_gmwd_polylines: Total expected rows (approximate): 0
+0011.390 (0) Table wp_gmwd_polylines: Total rows added: 0 in 0.00 seconds
+0011.391 (0) Table wp_gmwd_polylines: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_polylines.table.gz - 0.4 KB)
+0011.393 (0) Table wp_gmwd_rectangles: Total expected rows (approximate): 0
+0011.400 (0) Table wp_gmwd_rectangles: Total rows added: 0 in 0.01 seconds
+0011.401 (0) Table wp_gmwd_rectangles: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_rectangles.table.gz - 0.4 KB)
+0011.403 (0) Table wp_gmwd_shortcodes: Total expected rows (approximate): 4
+0011.408 (0) Table wp_gmwd_shortcodes: Total rows added: 4 in 0.01 seconds
+0011.409 (0) Table wp_gmwd_shortcodes: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_shortcodes.table.gz - 0.3 KB)
+0011.411 (0) Table wp_gmwd_themes: Total expected rows (approximate): 1
+0011.413 (0) Table wp_gmwd_themes: Total rows added: 1 in 0.00 seconds
+0011.414 (0) Table wp_gmwd_themes: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_themes.table.gz - 0.8 KB)
+0011.420 (0) Table wp_sbi_instagram_feeds_posts: Total expected rows (approximate): 17
+0011.423 (0) Table wp_sbi_instagram_feeds_posts: Total rows added: 20 in 0.00 seconds
+0011.423 (0) Table wp_sbi_instagram_feeds_posts: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_sbi_instagram_feeds_posts.table.gz - 0.7 KB)
+0011.429 (0) Table wp_sbi_instagram_posts: Total expected rows (approximate): 17
+0011.436 (0) Table wp_sbi_instagram_posts: Total rows added: 20 in 0.01 seconds
+0011.437 (0) Table wp_sbi_instagram_posts: finishing file (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_sbi_instagram_posts.table.gz - 4.2 KB)
+0011.439 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_options.table.gz (1/25): adding to final database dump
+0011.441 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_users.table.gz (2/25): adding to final database dump
+0011.441 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_usermeta.table.gz (3/25): adding to final database dump
+0011.443 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_commentmeta.table.gz (4/25): adding to final database dump
+0011.445 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_comments.table.gz (5/25): adding to final database dump
+0011.446 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_links.table.gz (6/25): adding to final database dump
+0011.446 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_postmeta.table.gz (7/25): adding to final database dump
+0011.447 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_posts.table.gz (8/25): adding to final database dump
+0011.449 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_term_relationships.table.gz (9/25): adding to final database dump
+0011.450 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_term_taxonomy.table.gz (10/25): adding to final database dump
+0011.450 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_termmeta.table.gz (11/25): adding to final database dump
+0011.451 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_terms.table.gz (12/25): adding to final database dump
+0011.451 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_circles.table.gz (13/25): adding to final database dump
+0011.451 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_maps.table.gz (14/25): adding to final database dump
+0011.452 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_mapstyles.table.gz (15/25): adding to final database dump
+0011.452 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_markercategories.table.gz (16/25): adding to final database dump
+0011.453 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_markers.table.gz (17/25): adding to final database dump
+0011.453 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_options.table.gz (18/25): adding to final database dump
+0011.454 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_polygons.table.gz (19/25): adding to final database dump
+0011.454 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_polylines.table.gz (20/25): adding to final database dump
+0011.455 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_rectangles.table.gz (21/25): adding to final database dump
+0011.455 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_shortcodes.table.gz (22/25): adding to final database dump
+0011.455 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_gmwd_themes.table.gz (23/25): adding to final database dump
+0011.456 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_sbi_instagram_feeds_posts.table.gz (24/25): adding to final database dump
+0011.456 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db-table-wp_sbi_instagram_posts.table.gz (25/25): adding to final database dump
+0011.457 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db.gz: finished writing out complete database file (16 KB)
+0011.459 (0) Total database tables backed up: 25 (backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db.gz, size: 39536, sha256)
+0011.461 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0011.462 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0011.462 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0011.462 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-others.zip: others: This file has not yet been successfully uploaded: will queue
+0011.463 (0) backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db.gz: db: This file has not yet been successfully uploaded: will queue
+0011.463 (0) Saving backup history. Total backup size: 35.3 MB
+0011.465 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.466 (0) Cloud backup selection (1/1):  (last)
+0011.466 (0) No remote despatch: user chose no remote backup service
+0011.467 (0) Recording as successfully uploaded: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-plugins.zip (421968002736e46f87e1ca4c2f764c2a)
+0011.469 (0) Recording as successfully uploaded: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-themes.zip (86e7654d9c4fd5c00fc39830df552f23)
+0011.471 (0) Recording as successfully uploaded: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-uploads.zip (71ef8df5b4a41536240a797bc8afb593)
+0011.474 (0) Recording as successfully uploaded: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-others.zip (f5688d6e8a48c8b208464b6ea0352965)
+0011.476 (0) Recording as successfully uploaded: backup_2020-10-28-2149_Den_goe_kaffebar_b9422ddfc4e3-db.gz (50c1cade7b9bc71aaff457f858d51cce)
+0011.478 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.478 (0) Number of backup sets in history: 3; groups (db): 1
+0011.479 (0) Examining (for databases) backup set with group_id=0, nonce=b9422ddfc4e3, datestamp=1603921756 (Oct 28 2020 21:49:16)
+0011.479 (0) This backup set is the backup set just made, so will not be deleted.
+0011.479 (0) Examining (for databases) backup set with group_id=0, nonce=ffe4c5dfc252, datestamp=1603317134 (Oct 21 2020 21:52:14)
+0011.479 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.480 (0) Examining (for databases) backup set with group_id=0, nonce=37ac9dc66a94, datestamp=1602711906 (Oct 14 2020 21:45:06)
+0011.480 (0) 1602711906: db: this set includes a database (backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-db.gz); db count is now 2
+0011.480 (0) 1602711906: db: over retain limit (2); will delete this database
+0011.481 (0) Delete file: backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-db.gz, service=none
+0011.481 (0) Deleting local copy (backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-db.gz)
+0011.482 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0011.482 (0) Number of backup sets in history: 3; groups (files): 1
+0011.482 (0) Examining (for files) backup set with nonce=b9422ddfc4e3, datestamp=1603921756 (Oct 28 2020 21:49:16)
+0011.483 (0) This backup set is the backup set just made, so will not be deleted.
+0011.483 (0) This backup set is the backup set just made, so will not be deleted.
+0011.483 (0) This backup set is the backup set just made, so will not be deleted.
+0011.483 (0) This backup set is the backup set just made, so will not be deleted.
+0011.483 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.483 (0) Examining (for files) backup set with nonce=ffe4c5dfc252, datestamp=1603317134 (Oct 21 2020 21:52:14)
+0011.484 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.484 (0) Examining (for files) backup set with nonce=37ac9dc66a94, datestamp=1602711906 (Oct 14 2020 21:45:06)
+0011.484 (0) plugins: over retain limit (2); will delete this file entity
+0011.485 (0) themes: over retain limit (2); will delete this file entity
+0011.485 (0) uploads: over retain limit (2); will delete this file entity
+0011.485 (0) others: over retain limit (2); will delete this file entity
+0011.486 (0) Delete file: backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-plugins.zip, service=none
+0011.486 (0) Deleting local copy (backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-plugins.zip)
+0011.489 (0) Delete file: backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-themes.zip, service=none
+0011.489 (0) Deleting local copy (backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-themes.zip)
+0011.490 (0) Delete file: backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-uploads.zip, service=none
+0011.490 (0) Deleting local copy (backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-uploads.zip)
+0011.492 (0) Delete file: backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-others.zip, service=none
+0011.493 (0) Deleting local copy (backup_2020-10-14-2145_Den_goe_kaffebar_37ac9dc66a94-others.zip)
+0011.495 (0) This backup set is now empty; will remove from history
+0011.495 (0) Deleting log file (log.37ac9dc66a94.txt)
+0011.496 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0011.497 (0) Resume backup (b9422ddfc4e3, 0): finish run
+0011.498 (0) Decremented the semaphore (fd) by 1
+0011.498 (0) Semaphore (fd) unlocked
+0011.499 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.500 (0) The backup apparently succeeded and is now complete
+0011.500 (0) No email will/can be sent - the user has not configured an email address.
+0011.501 (0) Sikkerhedskopieringen lykkedes og er nu færdig

@@ -7,7 +7,6 @@ Description: Den go'e kaffebar
 Version: 1.0
 */
 
-@import "css/bootstrap.less";
 
 /* =WordPress Core
 -------------------------------------------------------------- */
@@ -226,11 +225,11 @@ a img.aligncenter {
 
 @media screen and (max-width:768px) {
     .nav-menu li:not(:first-child) {
-        display: block;
+        display: none;
     }
     .nav-menu li.menu-toggle {
         float: right;
-        display: none;
+        display: block;
     }
 }
 
@@ -312,7 +311,5 @@ a img.aligncenter {
     margin: 30px 30px 0 0;
 }
 
-.wd-row{
-    margin-bottom: 0;
-}
 @import "custom.less";
+@import "css/bootstrap.less";
