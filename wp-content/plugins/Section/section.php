@@ -130,6 +130,14 @@ function section_add_meta_box() {
 			$screen,
             'side'
 		);
+
+		add_meta_box(
+			'section_sectionclass',
+			__( 'Section Classlist', 'section_textdomain' ),
+			'section_meta_box_class_callback',
+			$screen,
+            'side'
+		);
 	}
 }
 add_action( 'add_meta_boxes', 'section_add_meta_box' );
@@ -215,6 +223,72 @@ function section_save_meta_box_showtitle_data( $post_id ) {
 }
 add_action( 'save_post', 'section_save_meta_box_showtitle_data' );
 
+// SECTION CLASSLIST
+//////////////////////////////////////////////////////////////////////////
+function section_meta_box_class_callback( $post ) {
+
+	// Add an nonce field so we can check for it later.
+	wp_nonce_field( 'section_meta_box', 'section_meta_box_class_nonce' );
+
+	/*
+	 * Use get_post_meta() to retrieve an existing value
+	 * from the database and use the value for the form.
+	 */
+	
+    $section_class = get_post_meta( $post->ID, 'section_class', true ) ? get_post_meta( $post->ID, 'section_class', true ) : '';    
+	echo '<div class="post-section">';
+	echo '<input class="" value="' . $section_class . '" type="text" name="section_class" id="section_class" />';
+    echo '</div>';
+}
+
+function section_save_meta_box_classlist_data( $post_id ) {
+
+	/*
+	 * We need to verify this came from our screen and with proper authorization,
+	 * because the save_post action can be triggered at other times.
+	 */
+
+	// Check if our nonce is set.
+	if ( ! isset( $_POST['section_meta_box_class_nonce'] ) ) {
+		return;
+	}
+
+	// Verify that the nonce is valid.
+	if ( ! wp_verify_nonce( $_POST['section_meta_box_class_nonce'], 'section_meta_box' ) ) {
+		return;
+	}
+
+	// If this is an autosave, our form has not been submitted, so we don't want to do anything.
+	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		return;
+	}
+
+	// Check the user's permissions.
+	if ( isset( $_POST['post_type'] ) && 'page' == $_POST['post_type'] ) {
+
+		if ( ! current_user_can( 'edit_page', $post_id ) ) {
+			return;
+		}
+
+	} else {
+
+		if ( ! current_user_can( 'edit_post', $post_id ) ) {
+			return;
+		}
+	}
+
+	/* OK, it's safe for us to save the data now. */
+	
+	// Sanitize user input.	
+	$id = sanitize_text_field( $_POST['section_class'] );
+	
+
+	// Update the meta field in the database.
+	//update_post_meta( $post_id, 'section_class', $id );
+
+	update_post_meta( $post_id, 'section_class', $id );
+}
+add_action( 'save_post', 'section_save_meta_box_classlist_data' );
 // SECTION MARGIN
 //////////////////////////////////////////////////////////////////////////
 function section_meta_box_nomargin_callback( $post ) {

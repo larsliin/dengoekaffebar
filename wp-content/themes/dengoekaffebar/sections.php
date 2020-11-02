@@ -10,8 +10,9 @@
 
         <?php
             $noMargin = get_post_meta(get_the_ID(), 'section_nomargin', true ) == 1;
+            
             $noMarginClass = $noMargin ? 'container__margin--none' : '';
-            echo '<div class="container section ' . $noMarginClass . '">';
+            echo '<div class="container section ' . $noMarginClass . ' ' . get_post_meta(get_the_ID(), "section_class", true ) . '">';
             if(!$noMargin){
                 echo '<div class="row">';
                 echo '<div class="col-sm-12 blog-main">';
